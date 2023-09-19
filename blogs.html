@@ -2,18 +2,18 @@
 <html lang="en"> 
 <head>
 	<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L5QPCRN8CZ"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L5QPCRN8CZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'G-L5QPCRN8CZ');
-    </script>
-    <title>F.R.I.D.A.Y</title>
+  gtag('config', 'G-L5QPCRN8CZ');
+</script>
+    <title>Blogs - CuriousAvenger</title>
     
     <!-- Meta -->
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Higgs Boson Blog">
@@ -61,7 +61,7 @@
 					
 					<ul class="navbar-nav flex-column text-start">
 						<li class="nav-item">
-							<a class="nav-link active" href="index.html"><i class="fas fa-user fa-fw me-2"></i>About Me<span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="index.html"><i class="fas fa-user fa-fw me-2"></i>About Me</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio</a>
@@ -70,7 +70,7 @@
 							<a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="blog-home.html"><i class="fas fa-blog fa-fw me-2"></i>Science Blogs</a>
+							<a class="nav-link active" href="blogs.html"><i class="fas fa-blog fa-fw me-2"></i>Science Blogs<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw me-2"></i>Contact Me</a>
@@ -92,58 +92,81 @@
 	    
     <div class="main-wrapper">
 	    <section class="cta-section theme-bg-light py-5">
-		    <div class="container single-col-max-width">
-			    <h2 class="heading text-center">Project: F.R.I.D.A.Y</h2>
-			    <div class="project-intro text-center">
-					<p class="mb-0 lead">CuriousAvenger</p>
-				</div>
-			    
+		    <div class="container text-center">
+			    <h2 class="heading">Thought Experiment Esque Blogs</h2>
+			    <div class="intro">Welcome to my blog. Subscribe and get my latest blog post in your inbox.</div>
+			    <div class="single-form-max-width pt-3 mx-auto">
+				    <form class="signup-form row g-2 g-lg-2 align-items-center" action="https://formsubmit.co/CuriousAvenger10@gmail.com", method="POST">
+	                    <div class="col-12 col-md-9">
+	                        <label class="sr-only" for="semail">Your email</label>
+	                        <input type="email" id="semail" name="semail1" class="form-control me-md-1 semail" placeholder="Enter email">
+	                    </div>
+	                    <div class="col-12 col-md-2">
+	                        <button type="submit" class="btn btn-primary">Subscribe</button>
+	                    </div>
+	                </form><!--//signup-form-->
+			    </div><!--//single-form-max-width-->
 		    </div><!--//container-->
 	    </section>
-	    <section class="project px-3 py-5 p-md-5">
+	    <section class="blog-list px-3 py-5 p-md-5">
 		    <div class="container">
-			    <div class="project-meta theme-bg-light p-4">
-				    <div class="row g-4 g-lg-5">
-					    <div class="col-md-5 col-lg-4 col-xxl-3 d-none d-md-block">
-					        <img class="project-thumb img-fluid rounded" src="assets/images/project/F.R.I.D.A.Y.jpg" alt="">
-					    </div><!--//col-->
-						<div class="col-12 col-md-7 col-lg-8 col-xxl-9">
-						    <div class="client-info">
-							    <h3 class="client-name font-weight-bold mb-4">Client Name</h3>
-							    <ul class="client-meta list-unstyled">
-								    <li class="mb-2"><i class="fas fa-industry fa-fw me-2"></i><strong>Industry:</strong> Tech</li>
-								    <li class="mb-2"><i class="fas fa-users fa-fw me-2"></i><strong>Size:</strong> 100+</li>
-								    <li class="mb-2"><strong><i class="fas fa-link fa-fw me-2"></i>Website:</strong> <a class="theme-link" href="https://github.com/CuriousAvenger/F.R.I.D.A.Y">github.com/CuriousAvenger/F.R.I.D.A.Y</a></li>
-								    
-							    </ul>
-							    <div class="client-bio mb-4">F.R.I.D.A.Y. is a natural-language user interface created by Tony Stark, designed to work with his Iron Man armor. She served as Stark's main user interface computer system during the final battle between the Avengers and Ultron in Sokovia and to find information about Helmut Zemo. My Friday is a simulation of that alexa-like program.</div>
-						    </div><!--//client-info-->					
-						</div><!--//col-->
-				    </div><!--//row-->
-				</div><!--//project-meta-->
-				<div class="project-sections py-3">
-					<div class="project-section mb-1">
-					    <h3 class="project-section-title mb-3">How To Use:</h3>
-						<ul>
-							<li>git clone https://github.com/CuriousAvenger/F.R.I.D.A.Y</li>
-							<li>pip install -r requirements.txt</li>
-							<li>python3 createDB.py # Python3 Required</li>
-                            <li>python3 Friday.py</li>
-						</ul>					    
-					</div><!--//project-section-->								
-				</div>
-
-				<div class="project-sections py-3">
-					<div class="project-section mb-1">
-					    <h3 class="project-section-title mb-3">Instructions:</h3>
-						<ul>
-							<li>Wakeword: "hey friday"</li>
-							<li>Skills: Self learning capability</li>
-							<li>Date, Time, Stock Prices, News, Wikipedia,</li>
-                            <li>Play Songs, Open Websites</li>
-						</ul>					    
-					</div><!--//project-section-->								
-				</div>
+			    <div class="row">
+					<div class="col-md-4 mb-3">
+						<div class="card blog-post-card">
+							<img class="card-img-top" src="assets/images/blog/QuantumT.jpg" alt="image">
+							<div class="card-body">
+								<h5 class="card-title"><a class="theme-link" href="blogs/blog-QT.html">Quantum Tennis</a></h5>
+								<p class="card-text">Ever wanted to teleport, walk through walls, or have your clones? Because in this article we will go over objects that possess such characteristics; objects that you encounter every single day, even right now.</p>
+								<p class="mb-0"><a class="text-link" href="blogs/blog-QT.html">Read more &rarr;</a></p>
+								
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">Published December 2017</small>
+							</div>
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="col-md-4 mb-3">
+						<div class="card blog-post-card">
+							<img class="card-img-top" src="assets/images/blog/Teleportation.jpg" alt="image">
+							<div class="card-body">
+								<h5 class="card-title"><a class="theme-link" href="blogs/blog-TP.html">Teleportation</a></h5>
+								<p class="card-text">Ever wished if teleportation was real like just think about all the possibilities you could achieve by the simple act of moving quickly from one location to the other, but unfortunately, it's quite not possible or is it..</p>
+								<p class="mb-0"><a class="text-link" href="blogs/blog-TP.html">Read more &rarr;</a></p>
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">Published October 2020</small>
+								
+							</div>
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="col-md-4 mb-3">
+						<div class="card blog-post-card">
+							<img class="card-img-top" src="assets/images/blog/FieldTheory.jpg" alt="image">
+							<div class="card-body">
+								<h5 class="card-title"><a class="theme-link" href="blogs/blog-QFT.html">Quantum Field Theory</a></h5>
+								<p class="card-text">In today's article, we will be attempting to understand the Quantum Field Theory. As an overview, Quantum Physics is a fundamental theory that describes the physical properties of nature at the atomic and subatomic scale.</p>
+								<p class="mb-0"><a class="text-link" href="blogs/blog-QFT.html">Read more &rarr;</a></p>
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">Published January 2022</small>
+							</div>
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="col-md-4 mb-3">
+						<div class="card blog-post-card">
+							<img class="card-img-top" src="assets/images/blog/HiggsBoson.jpg" alt="image">
+							<div class="card-body">
+								<h5 class="card-title"><a class="theme-link" href="blogs/blog-HB.html">Higgs Boson</a></h5>
+								<p class="card-text">If you are a particle physics enthusiast, then you very well remember the year 2012. It was the time when CERN scientists confirmed the detection of the long-sought Higgs boson, also known by its nickname the "God Particle", at the LHC.</p>
+								<p class="mb-0"><a class="text-link" href="blogs/blog-HB.html">Read more &rarr;</a></p>
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">Published March 2022</small>
+							</div>
+						</div><!--//card-->
+					</div><!--//col-->
+				</div><!--//row-->
+				
 		    </div>
 	    </section>
 	    
@@ -181,7 +204,7 @@
 		</div><!--//panel-inner-->
 	</div><!--//configure-panel-->
 
-    <!-- Javascript -->          
+    <!-- Javascript -->
     <script src="assets/plugins/popper.min.js"></script> 
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
     
