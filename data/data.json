@@ -1,0 +1,94 @@
+{
+    "title": "Blogs - CuriousAvenger",
+    "blogs": [
+        {
+            "title": "Quantum Tennis",
+            "published": "Published December 2017",
+            "image": "assets/images/blog/QuantumT.jpg",
+            "link": "blogs/blog-QT.html",
+            "blurb": "Ever wanted to teleport, walk through walls, or have your clones? Because in this article we will go over objects that possess such characteristics; objects that you encounter every single day, even right now."
+        },
+
+        {
+            "title": "Teleportation",
+            "published": "Published October 2020",
+            "image": "assets/images/blog/Teleportation.jpg",
+            "link": "blogs/blog-TP.html",
+            "blurb": "Ever wished if teleportation was real like just think about all the possibilities you could achieve by the simple act of moving quickly from one location to the other, but unfortunately, it's quite not possible or is it.."
+        },
+
+        {
+            "title": "Quantum Field Theory",
+            "published": "Published January 2022",
+            "image": "assets/images/blog/FieldTheory.jpg",
+            "link": "blogs/blog-QFT.html",
+            "blurb": "In today's article, we will be attempting to understand the Quantum Field Theory. As an overview, Quantum Physics is a fundamental theory that describes the physical properties of nature at the atomic and subatomic scale."
+        },
+
+        {
+            "title": "Higgs Boson",
+            "published": "Published March 2022",
+            "image": "assets/images/blog/HiggsBoson.jpg",
+            "link": "blogs/blog-HB.html",
+            "blurb": "If you are a particle physics enthusiast, then you very well remember the year 2012. It was the time when CERN scientists confirmed the detection of the long-sought Higgs boson, also known by its nickname the \"God Particle\", at the LHC."
+        }
+    ],
+
+    "projects": [
+        {
+            "title": "Stock Game",
+            "section": "mobileapp",
+            "image": "assets/images/project/StockGame.png",
+            "link": "https://github.com/CuriousAvenger/StockGame",
+            "blurb": "Stock game is a python program that simulates real-life stock marketing, saving, and investments. Users get to trade and manage their portfolio and 100,000 dollar portfolio. This code is a very close immitation of the website: https://personalfinancelab.com"
+        },
+
+        {
+            "title": "Real Time Translator",
+            "section": "mobileapp",
+            "image": "assets/images/project/RT-Translator.jpg",
+            "link": "https://github.com/CuriousAvenger/RT-Translator",
+            "blurb": "Real Time Translator is a tool that can perform text translation in real time to the language specified by the user. RT-Translator best works with a Raspberry Pi, imitating a portable translator, especially useful when travelling to places where english might not be the primary language."
+        },
+
+        {
+            "title": "Python Netcat",
+            "section": "backend",
+            "image": "assets/images/project/Py-NetCat.jpg",
+            "link": "https://github.com/CuriousAvenger/Py-Netcat",
+            "blurb": "Netcat is a utility tool that uses TCP and UDP connections to read and write data in a network. Py-Netcat is an attempt to imitate the original Netcat in python3 using socket programming."
+        },
+
+        {
+            "title": "Sockets ChatApp",
+            "section": "backend",
+            "image": "assets/images/project/Socket-ChatApp.png",
+            "link": "https://github.com/CuriousAvenger/Sockets-ChatApp",
+            "blurb": "Socket-ChatApp is a basic server and client communication system between two nodes on a network. One socket(node) listens on a particular port of an IP, while the other attempts to connect with that socket to form a connection."
+        },
+
+        {
+            "title": "ASCII Art",
+            "section": "frontend",
+            "image": "assets/images/project/Ascii-Art.png",
+            "link": "https://github.com/CuriousAvenger/ASCII-Art",
+            "blurb": "ASCII program is an image to text converter, which converts any black and white images into Ascii Art."
+        },
+
+        {
+            "title": "F.R.I.D.A.Y",
+            "section": "mobileapp",
+            "image": "assets/images/project/F.R.I.D.A.Y.jpg",
+            "link": "https://github.com/CuriousAvenger/F.R.I.D.A.Y",
+            "blurb": "F.R.I.D.A.Y. is a natural-language user interface created by Tony Stark, designed to work with his Iron Man armor. She served as Stark's main user interface computer system during the final battle between the Avengers and Ultron in Sokovia and to find information about Helmut Zemo."
+        },
+
+        {
+            "title": "Reverse Shell",
+            "section": "backend",
+            "image": "assets/images/project/Reverse-Shell.png",
+            "link": "https://github.com/CuriousAvenger/Py-ReverseShell",
+            "blurb": "A Reverse Shell, also known as a remote shell or \"connect-back shell\" is process used to gain access a victim's remote system by initiating a shell session. The Py-ReverseShell is a shell code written in python that is able to establish a remote connection and upload KeyLoggers and Camera Monitoring onto the Victims systems. Everything Above is for educational purposes only."
+        }
+    ]
+}

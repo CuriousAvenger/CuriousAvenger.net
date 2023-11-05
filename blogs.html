@@ -111,62 +111,23 @@
 	    <section class="blog-list px-3 py-5 p-md-5">
 		    <div class="container">
 			    <div class="row">
-					<div class="col-md-4 mb-3">
+					
+					<div class="col-md-4 mb-3 blogs">
 						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets/images/blog/QuantumT.jpg" alt="image">
+							<img class="card-img-top" src="{{blogs.image}}" alt="image">
 							<div class="card-body">
-								<h5 class="card-title"><a class="theme-link" href="blogs/blog-QT.html">Quantum Tennis</a></h5>
-								<p class="card-text">Ever wanted to teleport, walk through walls, or have your clones? Because in this article we will go over objects that possess such characteristics; objects that you encounter every single day, even right now.</p>
-								<p class="mb-0"><a class="text-link" href="blogs/blog-QT.html">Read more &rarr;</a></p>
+								<h5 class="card-title"><a class="theme-link" href="{{blogs.link}}">{{blogs.title}}</a></h5>
+								<p class="card-text">{{blogs.blurb}}</p>
+								<p class="mb-0"><a class="text-link" href="{{blogs.link}}">Read more &rarr;</a></p>
 								
 							</div>
 							<div class="card-footer">
-								<small class="text-muted">Published December 2017</small>
+								<small class="text-muted">{{blogs.published}}</small>
 							</div>
 						</div><!--//card-->
 					</div><!--//col-->
-					<div class="col-md-4 mb-3">
-						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets/images/blog/Teleportation.jpg" alt="image">
-							<div class="card-body">
-								<h5 class="card-title"><a class="theme-link" href="blogs/blog-TP.html">Teleportation</a></h5>
-								<p class="card-text">Ever wished if teleportation was real like just think about all the possibilities you could achieve by the simple act of moving quickly from one location to the other, but unfortunately, it's quite not possible or is it..</p>
-								<p class="mb-0"><a class="text-link" href="blogs/blog-TP.html">Read more &rarr;</a></p>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Published October 2020</small>
-								
-							</div>
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="col-md-4 mb-3">
-						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets/images/blog/FieldTheory.jpg" alt="image">
-							<div class="card-body">
-								<h5 class="card-title"><a class="theme-link" href="blogs/blog-QFT.html">Quantum Field Theory</a></h5>
-								<p class="card-text">In today's article, we will be attempting to understand the Quantum Field Theory. As an overview, Quantum Physics is a fundamental theory that describes the physical properties of nature at the atomic and subatomic scale.</p>
-								<p class="mb-0"><a class="text-link" href="blogs/blog-QFT.html">Read more &rarr;</a></p>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Published January 2022</small>
-							</div>
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="col-md-4 mb-3">
-						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets/images/blog/HiggsBoson.jpg" alt="image">
-							<div class="card-body">
-								<h5 class="card-title"><a class="theme-link" href="blogs/blog-HB.html">Higgs Boson</a></h5>
-								<p class="card-text">If you are a particle physics enthusiast, then you very well remember the year 2012. It was the time when CERN scientists confirmed the detection of the long-sought Higgs boson, also known by its nickname the "God Particle", at the LHC.</p>
-								<p class="mb-0"><a class="text-link" href="blogs/blog-HB.html">Read more &rarr;</a></p>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Published March 2022</small>
-							</div>
-						</div><!--//card-->
-					</div><!--//col-->
-				</div><!--//row-->
-				
+
+				</div>
 		    </div>
 	    </section>
 	    
