@@ -105,18 +105,8 @@
 		    </div><!--//container-->
 	    </section>
 	    <section class="projects-list px-3 py-5 p-md-5">
-		    <div class="container">
-			    <div class="text-center">
-				    <ul id="filters" class="filters mb-5 mx-auto   ps-0">
-		                <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".webapp">Web App</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".mobileapp">App Dev</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".frontend">Frontend</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".backend">Backend</li>
-		            </ul><!--//filters-->
-			    </div>
-	            
-			    <div class="project-cards row isotope" id="project">
+		    <div class="container">            
+			    <div class="project-cards row" id="project">
 				</div><!--//row-->
 			
 		    </div>
@@ -125,9 +115,10 @@
 	    <footer class="footer text-center py-4">
 			<small class="copyright">
 				<div class="border-top text-center border-dark py-5">
-				<p class="mb-0 text-light">Copyright ©
-					<script>document.write(new Date().getFullYear())</script> 
-				Sai Praneth</p>
+				<p class="mb-0 text-light">Copyright ©<script>
+					var CurrentYear = new Date().getFullYear()
+					document.write(CurrentYear)
+				  </script> Sai Praneth</p>
 			  </div>
 			</small>
 		</footer>
