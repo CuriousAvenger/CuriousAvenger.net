@@ -7,11 +7,14 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-L5QPCRN8CZ');
 </script>
+
     <title>Portfolio - CuriousAvenger</title>
-    
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script defer src="data/data.js"></script>
+	
     <!-- Meta -->
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +31,6 @@
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
-
 </head> 
 
 <body>
@@ -103,179 +105,8 @@
 		    </div><!--//container-->
 	    </section>
 	    <section class="projects-list px-3 py-5 p-md-5">
-		    <div class="container">
-			    <div class="text-center">
-				    <ul id="filters" class="filters mb-5 mx-auto   ps-0">
-		                <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".webapp">Web App</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".mobileapp">App Dev</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".frontend">Frontend</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".backend">Backend</li>
-		            </ul><!--//filters-->
-			    </div>
-	            
-			    <div class="project-cards row isotope">
-					<div class="isotope-item col-md-6 mb-5 mobileapp">	
-						<div class="card project-card">
-							<div class="row">
-								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/StockGame.png" class="card-img" alt="image">
-								</div>
-								<div class="col-12 col-xl-7">
-									<div class="card-body">
-										<h5 class="card-title"><a href="https://github.com/CuriousAvenger/StockGame" class="theme-link">Stock Game</a></h5>
-										<p class="card-text">Stock game is a python program that simulates real-life stock marketing, saving, and investments. Users get to trade and manage their portfolio and 100,000 dollar portfolio. This code is a very close immitation of the website: https://personalfinancelab.com</p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="https://github.com/CuriousAvenger/StockGame"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="https://github.com/CuriousAvenger/StockGame">
-										<i class="fas fa-eye me-2"></i>View Project
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 mobileapp">
-						<div class="card project-card">
-							<div class="row">
-								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/RT-Translator.jpg" class="card-img" alt="image">
-								</div>
-								<div class="col-12 col-xl-7">
-									<div class="card-body">
-										<h5 class="card-title"><a href="https://github.com/CuriousAvenger/RT-Translator" class="theme-link">Real Time Translator</a></h5>
-										<p class="card-text">Real Time Translator is a tool that can perform text translation in real time to the language specified by the user. RT-Translator best works with a Raspberry Pi, imitating a portable translator, especially useful when travelling to places where english might not be the primary language.</p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="https://github.com/CuriousAvenger/RT-Translator"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="https://github.com/CuriousAvenger/RT-Translator">
-										<i class="fas fa-eye me-2"></i>View Projecct
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 backend">
-						<div class="card project-card">
-							<div class="row">
-								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/Py-NetCat.jpg" class="card-img" alt="image">
-								</div>
-								<div class="col-12 col-xl-7">
-									<div class="card-body">
-										<h5 class="card-title"><a href="https://github.com/CuriousAvenger/Py-Netcat" class="theme-link">Python Netcat</a></h5>
-										<p class="card-text">Netcat is a utility tool that uses TCP and UDP connections to read and write data in a network. Py-Netcat is an attempt to imitate the original Netcat in python3 using socket programming. </p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="https://github.com/CuriousAvenger/Py-Netcat"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="https://github.com/CuriousAvenger/Py-Netcat">
-										<i class="fas fa-eye me-2"></i>View Project
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 backend">
-						<div class="card project-card">
-							<div class="row">
-								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/Socket-ChatApp.png" class="card-img" alt="image">
-								</div>
-								<div class="col-12 col-xl-7">
-									<div class="card-body">
-										<h5 class="card-title"><a href="https://github.com/CuriousAvenger/Sockets-ChatApp" class="theme-link">Sockets ChatApp</a></h5>
-										<p class="card-text">Socket-ChatApp is a basic server and client communication system between two nodes on a network. One socket(node) listens on a particular port of an IP, while the other attempts to connect with that socket to form a connection.  </p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="https://github.com/CuriousAvenger/Sockets-ChatApp"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="https://github.com/CuriousAvenger/Sockets-ChatApp">
-										<i class="fas fa-eye me-2"></i>View Project
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 frontend">
-						<div class="card project-card">
-							<div class="row">
-								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/Ascii-Art.png" class="card-img" alt="image">
-								</div>
-								<div class="col-12 col-xl-7">
-									<div class="card-body">
-										<h5 class="card-title"><a href="https://github.com/CuriousAvenger/ASCII-Art" class="theme-link">ASCII Art</a></h5>
-										<p class="card-text">ASCII program is an image to text converter, which converts any black and white images into Ascii Art. </p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="https://github.com/CuriousAvenger/ASCII-Art"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="https://github.com/CuriousAvenger/ASCII-Art">
-										<i class="fas fa-eye me-2"></i>View Project
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->			
-					<div class="isotope-item col-md-6 mb-5 mobileapp">
-						<div class="card project-card">
-							<div class="row">
-								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/F.R.I.D.A.Y.jpg" class="card-img" alt="image">
-								</div>
-								<div class="col-12 col-xl-7">
-									<div class="card-body">
-										<h5 class="card-title"><a href="https://github.com/CuriousAvenger/F.R.I.D.A.Y" class="theme-link">F.R.I.D.A.Y</a></h5>
-										<p class="card-text">F.R.I.D.A.Y. is a natural-language user interface created by Tony Stark, designed to work with his Iron Man armor. She served as Stark's main user interface computer system during the final battle between the Avengers and Ultron in Sokovia and to find information about Helmut Zemo. </p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="https://github.com/CuriousAvenger/F.R.I.D.A.Y"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="https://github.com/CuriousAvenger/F.R.I.D.A.Y">
-										<i class="fas fa-eye me-2"></i>View Project
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->		
-					<div class="isotope-item col-md-6 mb-5 backend">
-						<div class="card project-card">
-							<div class="row">
-								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/Reverse-Shell.png" class="card-img" alt="image">
-								</div>
-								<div class="col-12 col-xl-7">
-									<div class="card-body">
-										<h5 class="card-title"><a href="https://github.com/CuriousAvenger/Py-ReverseShell" class="theme-link">Reverse Shell</a></h5>
-										<p class="card-text">A Reverse Shell, also known as a remote shell or "connect-back shell" is process used to gain access a victim's remote system by initiating a shell session. The Py-ReverseShell is a shell code written in python that is able to establish a remote connection and upload KeyLoggers and Camera Monitoring onto the Victims systems. Everything Above is for educational purposes only.</p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="https://github.com/CuriousAvenger/Py-ReverseShell"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="https://github.com/CuriousAvenger/Py-ReverseShell">
-										<i class="fas fa-eye me-2"></i>View Project
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->	
+		    <div class="container">            
+			    <div class="project-cards row" id="project">
 				</div><!--//row-->
 			
 		    </div>
