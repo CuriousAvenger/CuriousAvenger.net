@@ -3,7 +3,7 @@ $(document).ready(function () {
         var projectContainer = $('#project');
         data.projects.forEach(function (project) {
             var projectCard = `
-                <div class="isotope-item col-md-6 mb-5 ${project.section}">
+                <div class="isotope-item col-md-6 mb-5">
                     <div class="card project-card">
                         <div class="row">
                             <div class="col-12 col-xl-5 card-img-holder">
