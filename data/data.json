@@ -38,7 +38,7 @@
         {
             "title": "Sockets ChatApp",
             "image": "assets/images/project/Socket-ChatApp.png",
-            "link": "https://github.com/CuriousAvenger/Sockets-ChatApp",
+            "link": "https://github.com/CuriousAvenger/pyChatapp",
             "blurb": "Socket-ChatApp is a basic server and client communication system between two nodes on a network. One socket(node) listens on a particular port of an IP, while the other attempts to connect with that socket to form a connection."
         },
 
@@ -59,7 +59,7 @@
         {
             "title": "Reverse Shell",
             "image": "assets/images/project/Reverse-Shell.png",
-            "link": "https://github.com/CuriousAvenger/Py-ReverseShell",
+            "link": "https://github.com/CuriousAvenger/PyReverseShell",
             "blurb": "A Reverse Shell, also known as a remote shell or \"connect-back shell\" is process used to gain access a victim's remote system by initiating a shell session. The Py-ReverseShell is a shell code written in python that is able to establish a remote connection and upload KeyLoggers and Camera Monitoring onto the Victims systems. Everything Above is for educational purposes only."
         },
 
@@ -73,7 +73,7 @@
         {
             "title": "Python Netcat",
             "image": "assets/images/project/Py-NetCat.jpg",
-            "link": "https://github.com/CuriousAvenger/Py-Netcat",
+            "link": "https://github.com/CuriousAvenger/PyNetcat",
             "blurb": "Netcat is a utility tool that uses TCP and UDP connections to read and write data in a network. Py-Netcat is an attempt to imitate the original Netcat in python3 using socket programming."
         },
 
@@ -87,7 +87,7 @@
         {
             "title": "Real Time Translator",
             "image": "assets/images/project/RT-Translator.jpg",
-            "link": "https://github.com/CuriousAvenger/RT-Translator",
+            "link": "https://github.com/CuriousAvenger/pyTranslatorRT",
             "blurb": "Real Time Translator is a tool that can perform text translation in real time to the language specified by the user. RT-Translator best works with a Raspberry Pi, imitating a portable translator, especially useful when travelling to places where english might not be the primary language."
         },
 
