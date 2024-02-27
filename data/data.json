@@ -59,7 +59,7 @@
         {
             "title": "Reverse Shell",
             "image": "assets/images/project/Reverse-Shell.png",
-            "link": "https://github.com/CuriousAvenger/PyReverseShell",
+            "link": "https://github.com/CuriousAvenger/pyReverseShell",
             "blurb": "A Reverse Shell, also known as a remote shell or \"connect-back shell\" is process used to gain access a victim's remote system by initiating a shell session. The Py-ReverseShell is a shell code written in python that is able to establish a remote connection and upload KeyLoggers and Camera Monitoring onto the Victims systems. Everything Above is for educational purposes only."
         },
 
@@ -73,7 +73,7 @@
         {
             "title": "Python Netcat",
             "image": "assets/images/project/Py-NetCat.jpg",
-            "link": "https://github.com/CuriousAvenger/PyNetcat",
+            "link": "https://github.com/CuriousAvenger/pyNetcat",
             "blurb": "Netcat is a utility tool that uses TCP and UDP connections to read and write data in a network. Py-Netcat is an attempt to imitate the original Netcat in python3 using socket programming."
         },
 
