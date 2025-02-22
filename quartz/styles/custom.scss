@@ -1,3 +1,199 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+.poem {
+    text-align: center;
+    font-family: var(--quoteFont);
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+.view-button{
+   display: flex;
+   justify-content: center;
+   margin-top: 2rem;
+   font-size: 1.3em;
+}
+
+.page-image {
+   margin: auto auto;
+   max-width: 150px;
+   height: 150px; 
+   border-radius: 50%;
+   object-fit: cover;
+ }
+
+.sidebar-nav {
+    margin: 1rem 0;
+ 
+    .nav-buttons {
+       display: flex;
+       flex-direction: column;
+       gap: 0.4rem;
+       width: 100%;
+ 
+       .nav-button {
+          display: flex;
+          align-items: center;
+          gap: 0.6rem;
+          padding: 0.5rem 0.8rem;
+          color: var(--dark);
+          text-decoration: none;
+          transition: transform 0.2s ease;
+          background: var(--light);
+          position: relative;
+          cursor: pointer;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: bold;
+          font-family: var(--bodyFont);
+          width: 100%;
+          box-sizing: border-box;
+
+          .nav-icon svg {
+            width: 20px;
+            height: 20px;
+          }
+ 
+          .nav-icon {
+            display: block;
+             font-style: normal;
+             text-align: center;
+          }
+ 
+          .nav-text {
+             font-weight: 500;
+             transition: color 0.2s ease;
+             font-style: normal;
+             flex: 1;
+             text-align: left;
+             color: var(--secondary);
+          }
+ 
+          &:hover {
+             transform: none;
+             background: var(--lightgray);
+             border-color: var(--gray);
+ 
+             .nav-text {
+                color: var(--dark);
+             }
+          }
+ 
+          &.reading-mode-toggle {
+             .nav-text {
+                text-align: left;
+                color: var(--secondary);
+ 
+                &:hover {
+                   color: var(--dark);
+                }
+             }
+          }
+       }
+    }
+ }
+
+ // CSS for the index-blog component
+ .blog-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+ }
+ 
+ .blog {
+   height: 400px;
+   border-radius: 2%;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: var(--lightgray);
+ }
+ 
+ .blog-image {
+   position: relative;
+   width: 100%;
+   height: 75%;
+ }
+ 
+ .blog-image img {
+   margin-top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+ 
+ .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   pointer-events: none;
+ }
+
+ .blog-title {
+   position: absolute;
+   bottom: 0;
+   left: 10px;
+   color: white;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+ 
+ .blog-body {
+   padding: 0 15px 15px;
+   overflow: hidden;
+ }
+ 
+ .blog-text {
+   font-size: 0.8rem;
+   line-height: 1.2;
+ }
+
+ //CSS for the index-projects component
+ .project-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px; 
+}
+
+.project {
+   display: flex;
+   width: 100%;
+   height: 150px;
+   border-radius: 2%;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: var(--lightgray);
+}
+
+.project-image {
+   position: relative;
+   width: 45%;
+   height: 100%;
+}
+
+.project-image img {
+   margin-top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.project-content {
+   width: 60%; 
+   box-sizing: border-box;
+   padding: 0 15px 15px;
+   overflow: hidden;
+}
+
+.project-title {
+   margin: 10px 0 5px 0;
+   position: relative;
+   font-size: 1.2rem;
+}
+
+.project-description {
+   margin: 0 0 10px 0;
+   font-size: 0.8rem;
+   line-height: 1.2;
+}

@@ -20,6 +20,7 @@ export interface Theme {
     header: string
     body: string
     code: string
+    quote: string
   }
   cdnCaching: boolean
   colors: Colors
@@ -33,8 +34,8 @@ const DEFAULT_SANS_SERIF =
 const DEFAULT_MONO = "ui-monospace, SFMono-Regular, SF Mono, Menlo, monospace"
 
 export function googleFontHref(theme: Theme) {
-  const { code, header, body } = theme.typography
-  return `https://fonts.googleapis.com/css2?family=${code}&family=${header}:wght@400;700&family=${body}:ital,wght@0,400;0,600;1,400;1,600&display=swap`
+  const { code, header, body, quote } = theme.typography
+  return `https://fonts.googleapis.com/css2?family=${code}&family=${quote}&family=${header}:wght@400;700&family=${body}:ital,wght@0,400;0,600;1,400;1,600&display=swap`
 }
 
 export function joinStyles(theme: Theme, ...stylesheet: string[]) {
@@ -55,6 +56,7 @@ ${stylesheet.join("\n\n")}
   --headerFont: "${theme.typography.header}", ${DEFAULT_SANS_SERIF};
   --bodyFont: "${theme.typography.body}", ${DEFAULT_SANS_SERIF};
   --codeFont: "${theme.typography.code}", ${DEFAULT_MONO};
+  --quoteFont: "${theme.typography.quote}", ${DEFAULT_SANS_SERIF};
 }
 
 :root[saved-theme="dark"] {

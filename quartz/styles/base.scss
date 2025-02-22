@@ -18,6 +18,8 @@ section {
   background-color: var(--light);
   font-family: var(--bodyFont);
   color: var(--darkgray);
+  background-image: radial-gradient(var(--lightgray) 2px, transparent 2px);
+  background-size: 100px 100px;
 }
 
 .text-highlight {
@@ -257,6 +259,7 @@ a {
       min-width: 100%;
       margin-left: auto;
       margin-right: auto;
+      background-color: var(--light);
       @media all and ($tablet) {
         margin-right: 0;
       }
