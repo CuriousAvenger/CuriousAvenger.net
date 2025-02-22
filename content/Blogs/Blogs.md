@@ -5,7 +5,7 @@ title: Science Blogs
 <div class="blog-container">
   <div class="blog">
     <div class="blog-image">
-      <img src="/static/blogs/fieldtheory.png" alt="Field Theory">
+      <img src="/assets/blogs/fieldtheory.png" alt="Field Theory">
       <div class="overlay"></div>
       <h3 class="blog-title">Field Theory</h3>
     </div>
@@ -16,7 +16,7 @@ title: Science Blogs
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/static/blogs/higgsboson.png" alt="Higgs Boson">
+      <img src="/assets/blogs/higgsboson.png" alt="Higgs Boson">
       <div class="overlay"></div>
       <h3 class="blog-title">Higgs Boson</h3>
     </div>
@@ -27,7 +27,7 @@ title: Science Blogs
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/static/blogs/quantumtennis.png" alt="Quantum Tennis">
+      <img src="/assets/blogs/quantumtennis.png" alt="Quantum Tennis">
       <div class="overlay"></div>
       <h3 class="blog-title">Quantum Tennis</h3>
     </div>
@@ -38,7 +38,7 @@ title: Science Blogs
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/static/blogs/teleportation.png" alt="Quantum Tennis">
+      <img src="/assets/blogs/teleportation.png" alt="Quantum Tennis">
       <div class="overlay"></div>
       <h3 class="blog-title">Teleportation</h3>
     </div>
@@ -49,7 +49,7 @@ title: Science Blogs
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/static/blogs/blackhole.png" alt="Quantum Tennis">
+      <img src="/assets/blogs/blackhole.png" alt="Quantum Tennis">
       <div class="overlay"></div>
       <h3 class="blog-title">Black Holes</h3>
     </div>

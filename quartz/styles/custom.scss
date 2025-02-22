@@ -94,6 +94,16 @@
     }
  }
 
+ // CSS for shadow effect on images.
+ .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+ }
+
  // CSS for the index-blog component
  .blog-container {
    display: grid;
@@ -102,10 +112,14 @@
  }
  
  .blog {
-   height: 400px;
+   display: flex;
+   flex-direction: column;
+   max-height: 800px;
+   min-height: 400px;
    border-radius: 2%;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    background-color: var(--lightgray);
+   align-items: stretch;
  }
  
  .blog-image {
@@ -121,16 +135,6 @@
    object-fit: cover;
  }
  
- .overlay {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(0, 0, 0, 0.5);
-   pointer-events: none;
- }
-
  .blog-title {
    position: absolute;
    bottom: 0;
@@ -142,7 +146,6 @@
  
  .blog-body {
    padding: 0 15px 15px;
-   overflow: hidden;
  }
  
  .blog-text {
@@ -159,11 +162,12 @@
 
 .project {
    display: flex;
-   width: 100%;
-   height: 150px;
+   max-height: 600px;
+   min-height: 150px;
    border-radius: 2%;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    background-color: var(--lightgray);
+   align-items: stretch;
 }
 
 .project-image {
@@ -183,7 +187,7 @@
    width: 60%; 
    box-sizing: border-box;
    padding: 0 15px 15px;
-   overflow: hidden;
+   word-wrap: break-word;
 }
 
 .project-title {

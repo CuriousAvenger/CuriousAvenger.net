@@ -15,7 +15,7 @@ export default ((opts?: Options) => {
         return (
             <footer>
                 <p>Powered By <a href={quartz} class="external">Quartz</a> © {year} | 
-                  <a href={ccm} class="external"> GitHub</a> - CuriousAvenger | 
+                  <a href={ccm} class="external"> GitHub</a> - CuriousAvenger.net | 
                   <a href={linkd} class="external"> LinkedIn</a> - Sai Praneth
                 </p>
             </footer>
