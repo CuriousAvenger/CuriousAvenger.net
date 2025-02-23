@@ -201,3 +201,13 @@
    font-size: 0.8rem;
    line-height: 1.2;
 }
+
+@media (max-width: 768px) {
+   .project-container {
+      grid-template-columns: 1fr;
+   }
+
+   .blog-container {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
