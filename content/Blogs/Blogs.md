@@ -38,7 +38,7 @@ title: Science Blogs
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/assets/blogs/Teleportation.png" alt="Teleportation">
+      <img src="/assets/blogs/TeleportBlog.png" alt="Teleportation Blog">
       <div class="overlay"></div>
       <h3 class="blog-title">Teleportation</h3>
     </div>
@@ -54,7 +54,7 @@ title: Science Blogs
       <h3 class="blog-title">Black Holes</h3>
     </div>
     <div class="blog-body">
-      <p class="blog-text">When I watched *Interstellar*, I was amazed yet confused about why Cooper aged so differently when he was close to...</p>
+      <p class="blog-text">When I watched Interstellar, I was amazed yet confused about why Cooper aged so differently when he was close to...</p>
       <a href="/Blogs/BlackHoles">Read More →</a>
     </div>
   </div>
