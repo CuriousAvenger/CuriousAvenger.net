@@ -63,46 +63,46 @@ Hey! I'm Sai Praneth, a student at the University of California, Berkeley, pursu
 </div>
 
 <div class="view-button">
-    <a href="/portfolio/portfolio">View Portfolio →</a>
+    <a href="/Portfolio/Portfolio">View Portfolio →</a>
 </div>
 
 # Latest Blog Posts
 <div class="blog-container">
   <div class="blog">
     <div class="blog-image">
-      <img src="/assets/blogs/fieldtheory.png" alt="Field Theory">
+      <img src="/assets/blogs/FieldTheory.png" alt="Field Theory">
       <div class="overlay"></div>
       <h3 class="blog-title">Field Theory</h3>
     </div>
     <div class="blog-body">
       <p class="blog-text">In this article, we will attempt to understand Quantum Field Theory. Quantum Physics is a fundamental theory that describes...</p>
-      <a href="/blogs/fieldtheory">Read More →</a>
+      <a href="/blogs/FieldTheory">Read More →</a>
     </div>
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/assets/blogs/higgsboson.png" alt="Higgs Boson">
+      <img src="/assets/blogs/HiggsBoson.png" alt="Higgs Boson">
       <div class="overlay"></div>
       <h3 class="blog-title">Higgs Boson</h3>
     </div>
     <div class="blog-body">
       <p class="blog-text">If you are a particle physics enthusiast, then you very well remember the year 2012. It was the time when CERN scientists confirmed...</p>
-      <a href="/blogs/higgsboson">Read More →</a>
+      <a href="/blogs/HiggsBoson">Read More →</a>
     </div>
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/assets/blogs/quantumtennis.png" alt="Quantum Tennis">
+      <img src="/assets/blogs/QuantumTennis.png" alt="Quantum Tennis">
       <div class="overlay"></div>
       <h3 class="blog-title">Quantum Tennis</h3>
     </div>
     <div class="blog-body">
       <p class="blog-text">Ever wanted to teleport, walk through walls, or have your clones? Because in this article we will go over objects that possess...</p>
-      <a href="/blogs/quantumtennis">Read More →</a>
+      <a href="/blogs/QuantumTennis">Read More →</a>
     </div>
   </div>
 </div>
 
 <div class="view-button">
-    <a href="/blogs/blogs">View Blogs →</a>
+    <a href="/Blogs/Blogs">View Blogs →</a>
 </div>
