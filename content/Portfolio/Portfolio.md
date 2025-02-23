@@ -4,7 +4,7 @@ title: Portfolio
 <div class="project-container">
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/MonkeyTypeBot.png" alt="Monkey Type Bot">
+            <img src="/assets/projects/MonkeyTypeBot.png" alt="Monkey Type Bot">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -15,7 +15,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/AevumCoin.png" alt="Aevum Coin">
+            <img src="/assets/projects/AevumCoin.png" alt="Aevum Coin">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -26,7 +26,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/PhantomGambit.png" alt="Phantom Gambit">
+            <img src="/assets/projects/PhantomGambit.png" alt="Phantom Gambit">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -37,7 +37,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/CyberNotes.png" alt="Cyber Notes">
+            <img src="/assets/projects/CyberNotes.png" alt="Cyber Notes">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -48,7 +48,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/pyTranslator.png" alt="pyTranslator">
+            <img src="/assets/projects/pyTranslator.png" alt="pyTranslator">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -59,7 +59,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/HumanBenchmarkBot.png" alt="Human Benchmark Bot">
+            <img src="/assets/projects/HumanBenchmarkBot.png" alt="Human Benchmark Bot">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -70,7 +70,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/pyChatapp.png" alt="pyChatapp">
+            <img src="/assets/projects/pyChatapp.png" alt="pyChatapp">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -81,7 +81,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/FRIDAY.png" alt="FRIDAY">
+            <img src="/assets/projects/FRIDAY.png" alt="FRIDAY">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -92,7 +92,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/SortAlgorithms.png" alt="SortAlgorithms">
+            <img src="/assets/projects/SortAlgorithms.png" alt="SortAlgorithms">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -103,7 +103,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/pyReverseShell.png" alt="pyReverseShell">
+            <img src="/assets/projects/pyReverseShell.png" alt="pyReverseShell">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -114,7 +114,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/StockGame.png" alt="StockGame">
+            <img src="/assets/projects/StockGame.png" alt="StockGame">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -125,7 +125,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/ASCII-Art.png" alt="ASCII-Art">
+            <img src="/assets/projects/ASCII-Art.png" alt="ASCII-Art">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
@@ -136,7 +136,7 @@ title: Portfolio
     </div>
     <div class="project">
         <div class="project-image">
-            <img src="/assets/Projects/pyNetcat.png" alt="pyNetcat">
+            <img src="/assets/projects/pyNetcat.png" alt="pyNetcat">
             <div class="overlay"></div>
         </div>
         <div class="project-content">
