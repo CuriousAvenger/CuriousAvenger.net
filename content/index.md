@@ -70,7 +70,7 @@ Hey! I'm Sai Praneth, a student at the University of California, Berkeley, pursu
 <div class="blog-container">
   <div class="blog">
     <div class="blog-image">
-      <img src="/assets/Blogs/FieldTheory.png" alt="Field Theory">
+      <img src="/assets/blogs/FieldTheory.png" alt="Field Theory">
       <div class="overlay"></div>
       <h3 class="blog-title">Field Theory</h3>
     </div>
@@ -81,7 +81,7 @@ Hey! I'm Sai Praneth, a student at the University of California, Berkeley, pursu
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/assets/Blogs/HiggsBoson.png" alt="Higgs Boson">
+      <img src="/assets/blogs/HiggsBoson.png" alt="Higgs Boson">
       <div class="overlay"></div>
       <h3 class="blog-title">Higgs Boson</h3>
     </div>
@@ -92,7 +92,7 @@ Hey! I'm Sai Praneth, a student at the University of California, Berkeley, pursu
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/assets/Blogs/QuantumTennis.png" alt="Quantum Tennis">
+      <img src="/assets/blogs/QuantumTennis.png" alt="Quantum Tennis">
       <div class="overlay"></div>
       <h3 class="blog-title">Quantum Tennis</h3>
     </div>
