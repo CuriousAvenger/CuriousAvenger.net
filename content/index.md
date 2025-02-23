@@ -70,35 +70,35 @@ Hey! I'm Sai Praneth, a student at the University of California, Berkeley, pursu
 <div class="blog-container">
   <div class="blog">
     <div class="blog-image">
-      <img src="/assets/blogs/FieldTheory.png" alt="Field Theory">
+      <img src="/assets/Blogs/FieldTheory.png" alt="Field Theory">
       <div class="overlay"></div>
       <h3 class="blog-title">Field Theory</h3>
     </div>
     <div class="blog-body">
       <p class="blog-text">In this article, we will attempt to understand Quantum Field Theory. Quantum Physics is a fundamental theory that describes...</p>
-      <a href="/blogs/FieldTheory">Read More →</a>
+      <a href="/Blogs/FieldTheory">Read More →</a>
     </div>
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/assets/blogs/HiggsBoson.png" alt="Higgs Boson">
+      <img src="/assets/Blogs/HiggsBoson.png" alt="Higgs Boson">
       <div class="overlay"></div>
       <h3 class="blog-title">Higgs Boson</h3>
     </div>
     <div class="blog-body">
       <p class="blog-text">If you are a particle physics enthusiast, then you very well remember the year 2012. It was the time when CERN scientists confirmed...</p>
-      <a href="/blogs/HiggsBoson">Read More →</a>
+      <a href="/Blogs/HiggsBoson">Read More →</a>
     </div>
   </div>
   <div class="blog">
     <div class="blog-image">
-      <img src="/assets/blogs/QuantumTennis.png" alt="Quantum Tennis">
+      <img src="/assets/Blogs/QuantumTennis.png" alt="Quantum Tennis">
       <div class="overlay"></div>
       <h3 class="blog-title">Quantum Tennis</h3>
     </div>
     <div class="blog-body">
       <p class="blog-text">Ever wanted to teleport, walk through walls, or have your clones? Because in this article we will go over objects that possess...</p>
-      <a href="/blogs/QuantumTennis">Read More →</a>
+      <a href="/Blogs/QuantumTennis">Read More →</a>
     </div>
   </div>
 </div>
