@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://curiousavenger.net/</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/.</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Portfolio/Portfolio</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Blogs/Blogs</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Resume/Resume</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Blogs/BlackHoles</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Blogs/HiggsBoson</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Blogs/FieldTheory</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Blogs/QuantumTennis</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Blogs/Teleportation</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Portfolio/</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Blogs/</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/Resume/</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://curiousavenger.net/assets/resume/Resume.pdf</loc>
+  <lastmod>2025-02-23T02:45:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
